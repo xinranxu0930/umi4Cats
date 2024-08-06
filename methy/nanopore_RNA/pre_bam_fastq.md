@@ -1,6 +1,8 @@
 # 前期须知
 **1、绘图颜色**
 
+![绘图颜色](./2024-07-08.png)
+
 <span style="background-color:#845EC2; color:white;">#845EC2</span> 
 <span style="background-color:#2C73D2; color:white;">#2C73D2</span> 
 <span style="background-color:#0081CF; color:white;">#0081CF</span> 
