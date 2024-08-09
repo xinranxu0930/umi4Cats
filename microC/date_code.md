@@ -33,9 +33,4 @@ python /mnt/hpc/home/xuxinran/microC/trim_index.py -f1 scMicro-ATAC-12x_trim_1.f
 
 
 seqkit stat /mnt/hpc/home/xuxinran/microC/date/date_0327/scMicroC/bulk_data/2x/scMicro-ATAC-2x_S4_L001_R1_001.fastq.gz /mnt/hpc/home/xuxinran/microC/date/date_0327/scMicroC/bulk_data/2x/scMicro-ATAC-2x_trim_1.fq /mnt/hpc/home/xuxinran/microC/date/date_0327/scMicroC/bulk_data/2x/scMicro-ATAC-2x_trim_index_1.fq /mnt/hpc/home/xuxinran/microC/date/date_0327/scMicroC/bulk_data/12x/scMicro-ATAC-12x_S8_L001_R1_001.fastq.gz /mnt/hpc/home/xuxinran/microC/date/date_0327/scMicroC/bulk_data/12x/scMicro-ATAC-12x_trim_1.fq /mnt/hpc/home/xuxinran/microC/date/date_0327/scMicroC/bulk_data/12x/scMicro-ATAC-12x_trim_index_1.fq /mnt/hpc/home/xuxinran/microC/date/date_0516_scMicroC/data/B/B_L003_R1_001.fastq.gz /mnt/hpc/home/xuxinran/microC/date/date_0516_scMicroC/data/B/B_L003_trim_1.fq /mnt/hpc/home/xuxinran/microC/date/date_0516_scMicroC/data/B/B_L003_trim_index_1.fq /mnt/hpc/home/xuxinran/microC/date/date_0516_scMicroC/data/C/C_L003_R1_001.fastq.gz /mnt/hpc/home/xuxinran/microC/date/date_0516_scMicroC/data/C/C_L003_trim_1.fq /mnt/hpc/home/xuxinran/microC/date/date_0516_scMicroC/data/C/C_L003_trim_index_1.fq /mnt/hpc/home/xuxinran/microC/date/date_0724/scMicroC/clean_data/Bio-scMicro-C-K562_R1_001.fastq.gz /mnt/hpc/home/xuxinran/microC/date/date_0724/scMicroC/clean_data/Bio-scMicro-C-K562_trim_1.fq /mnt/hpc/home/xuxinran/microC/date/date_0724/scMicroC/clean_data/Bio-scMicro-C-K562_trim_read1N_1.fq /mnt/hpc/home/xuxinran/microC/date/date_0806_scMicroCqc/qc/2-Bio-scMicro-C-K562_R1_001.fastq.gz /mnt/hpc/home/xuxinran/microC/date/date_0806_scMicroCqc/qc/2-Bio-scMicro-C-K562_trim_1.fq /mnt/hpc/home/xuxinran/microC/date/date_0806_scMicroCqc/qc/2-Bio-scMicro-C-K562_trim_index_1.fq
-
-
 ```
-2. clean read 长度
-   
-3. ligation

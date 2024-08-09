@@ -25,7 +25,7 @@ plink --bfile /mnt/hpc/home/xuxinran/huvec_genotype/huvec_imputed --freq --out /
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | chr1 | 16002228 | rs72704715 | C | G | 0.01923 |
 
-<span style="color:red;">MAF是A1的频率！</span>
+<span style="color:red;">A1是minor(effect) A2是major MAF是A1的频率，也可以认为是EAF</span>
 
 # 所有前期处理
 ## fast5 2 pod5
