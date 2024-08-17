@@ -34,7 +34,7 @@ python /mnt/hpc/home/xuxinran/DirectSeq/nanoirqtl/1_flair2dict.py -f nano_merge.
 python /mnt/hpc/home/xuxinran/DirectSeq/nanoirqtl/2_get_irqtl.py -c chr12 -b /mnt/hpc/home/xuxinran/DirectSeq/data/zhaolin_240206/240201-zhaolin-RNA-merge/v0.7.2/bam/m6A/nano_merge_map0.bam -p ./nano_merge -r nano_merge_isoform_read.pkl -s + --snp_info /mnt/hpc/home/xuxinran/DirectSeq/refData_prepartCode/snp_info_singlesite.txt --geno_size /mnt/hpc/home/xuxinran/REF/hg19/hg19.chrom.sizes
 
 # 实际运行
-base run2.sh
+base /mnt/hpc/home/xuxinran/DirectSeq/nanoirqtl/run2.sh
 
 ## 3、fisher检验
 

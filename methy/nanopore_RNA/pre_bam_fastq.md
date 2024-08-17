@@ -17,6 +17,7 @@
 
 ```shell
 plink --bfile /mnt/hpc/home/xuxinran/huvec_genotype/huvec_imputed --freq --out /mnt/hpc/home/xuxinran/huvec_genotype/allele_frequencies
+awk -F'\t' 'NR==1 || $NF > 0.05' /mnt/hpc/home/xuxinran/DirectSeq/refData_prepartCode/snp_info_singlesite.txt > /mnt/hpc/home/xuxinran/DirectSeq/refData_prepartCode/snp_info_singlesite_005.txt
 ```
 - 没有genotype，用对应的SNP vcf注释文件整理为标准格式
 |CHR|pos|SNP|A1|A2|MAF|
