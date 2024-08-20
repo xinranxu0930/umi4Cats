@@ -1,0 +1,1 @@
+/mnt/hpc/home/xuxinran/microC/date/date_0520/trim.py
