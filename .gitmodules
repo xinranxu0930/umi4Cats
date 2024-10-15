@@ -1,0 +1,3 @@
+[submodule "UMI4Cats"]
+	path = UMI4Cats
+	url = git@github.com:Pasquali-lab/UMI4Cats.git
