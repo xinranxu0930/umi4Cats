@@ -1,0 +1,5 @@
+bwa mem -5SP -T0 -t100 /mnt/hpc/home/xuxinran/REF/hg19/Sequence/BWAIndex/genome.fa old-po-microc-52_L4_Q0063W0181.R1.fastq.gz old-po-microc-52_L4_Q0063W0181.R2.fastq.gz -o old-po-microc-52_L4_aligned.sam
+pairtools parse --min-mapq 40 --walks-policy 5unique --max-inter-align-gap 30 --nproc-in 100 --nproc-out 100 --chroms-path /mnt/hpc/home/xuxinran/REF/hg19/hg19.chrom.sizes old-po-microc-52_L4_aligned.sam > old-po-microc-52_L4_parsed.pairsam
+pairtools sort --tmpdir ./tmp --nproc 100 old-po-microc-52_L4_parsed.pairsam > old-po-microc-52_L4_sorted.pairsam
+pairtools dedup --nproc-in 100 --nproc-out 100 --mark-dups --max-mismatch 3 --backend cython --output-stats old-po-microc-52_L4_stats.txt --output old-po-microc-52_L4_dedup.pairsam old-po-microc-52_L4_sorted.pairsam
+python3 /mnt/hpc/home/xuxinran/microC/Micro-C-main/get_qc.py -p old-po-microc-52_L4_stats.txt > old-po-microc-52_L4_qc.txt
