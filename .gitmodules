@@ -1,6 +1,6 @@
 [submodule "UMI4Cats"]
 	path = UMI4Cats
 	url = git@github.com:Pasquali-lab/UMI4Cats.git
-[submodule "/mnt/hpc/home/xuxinran/4C/UMI4C/umi4cpackage/umi4cpackage"]
-	path = /mnt/hpc/home/xuxinran/4C/UMI4C/umi4cpackage/umi4cpackage
-	url = https://github.com/tanaylab/umi4cpackage.git
+[submodule "umi4cpackage"]
+	path = umi4cpackage/umi4cpackage
+	url = git@github.com:tanaylab/umi4cpackage.git
